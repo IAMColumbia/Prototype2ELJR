@@ -341,7 +341,7 @@ MonoBehaviour:
       m_Flags: 4
     - m_Name: up
       m_Id: ace0b047-a7eb-49f7-ad43-1b943562af93
-      m_Path: <Keyboard>/a
+      m_Path: <Keyboard>/w
       m_Interactions: 
       m_Processors: 
       m_Groups: 
@@ -349,7 +349,7 @@ MonoBehaviour:
       m_Flags: 8
     - m_Name: down
       m_Id: b2aa4fe2-22f3-4ca3-99e6-df525b6df1dd
-      m_Path: <Keyboard>/d
+      m_Path: <Keyboard>/s
       m_Interactions: 
       m_Processors: 
       m_Groups: 
@@ -357,7 +357,7 @@ MonoBehaviour:
       m_Flags: 8
     - m_Name: left
       m_Id: 55c867d2-b6bf-4bcb-bd71-988580df1e0a
-      m_Path: <Keyboard>/w
+      m_Path: <Keyboard>/a
       m_Interactions: 
       m_Processors: 
       m_Groups: 
@@ -365,7 +365,7 @@ MonoBehaviour:
       m_Flags: 8
     - m_Name: right
       m_Id: f414b2b2-e0e4-4649-9fb0-3114d8cbb96d
-      m_Path: <Keyboard>/s
+      m_Path: <Keyboard>/d
       m_Interactions: 
       m_Processors: 
       m_Groups: 
@@ -373,6 +373,8 @@ MonoBehaviour:
       m_Flags: 8
     m_Flags: 0
     m_Priority: 0
+  moveInput: {x: 0, y: 0}
+  Speed: 10
 --- !u!1001 &391765773
 PrefabInstance:
   m_ObjectHideFlags: 0

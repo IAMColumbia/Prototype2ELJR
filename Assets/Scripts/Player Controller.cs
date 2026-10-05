@@ -8,7 +8,7 @@ public class PlayerInput : MonoBehaviour
     public Vector2 moveInput;
     public float Speed = 10f;
     public float xRange = 10f;
-    public GameObject Projectile;
+    public GameObject ProjectilePrefab;
     public InputAction fireAction;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -34,7 +34,8 @@ public class PlayerInput : MonoBehaviour
 
         if (fireAction.triggered)
         {
-            Debug.Log("Fired a Projectile");
+           // Debug.Log("Fired a Projectile");
+           Instantiate(ProjectilePrefab, transform.position, ProjectilePrefab.transform.rotation);
         }
     }
 }

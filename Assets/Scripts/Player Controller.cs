@@ -31,5 +31,10 @@ public class PlayerInput : MonoBehaviour
         }
         moveInput = moveAction.ReadValue<Vector2>();
         transform.Translate(Vector3.right * moveInput.x * Time.deltaTime * Speed);
+
+        if (fireAction.triggered)
+        {
+            Debug.Log("Fired a Projectile");
+        }
     }
 }

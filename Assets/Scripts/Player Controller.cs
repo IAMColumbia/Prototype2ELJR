@@ -8,6 +8,8 @@ public class PlayerInput : MonoBehaviour
     public Vector2 moveInput;
     public float Speed = 10f;
     public float xRange = 10f;
+    public GameObject Projectile;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

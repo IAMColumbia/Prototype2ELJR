@@ -377,6 +377,24 @@ MonoBehaviour:
   Speed: 10
   xRange: 10
   Projectile: {fileID: 6122491634416373655, guid: bf749e37e9603a248b134e8cf0d0eb40, type: 3}
+  fireAction:
+    m_Name: Fire
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 1d69cd2b-9b1f-4018-b84a-535036b8a289
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 6f096c2a-d475-42c1-a7b2-36db053665f1
+      m_Path: <Keyboard>/space
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Fire
+      m_Flags: 0
+    m_Flags: 0
+    m_Priority: 0
 --- !u!1001 &391765773
 PrefabInstance:
   m_ObjectHideFlags: 0

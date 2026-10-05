@@ -9,12 +9,13 @@ public class PlayerInput : MonoBehaviour
     public float Speed = 10f;
     public float xRange = 10f;
     public GameObject Projectile;
+    public InputAction fireAction;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         moveAction.Enable();
-       
+        fireAction.Enable();
     }
 
     // Update is called once per frame

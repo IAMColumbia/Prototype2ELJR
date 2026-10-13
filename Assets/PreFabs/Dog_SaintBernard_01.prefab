@@ -147,6 +147,8 @@ GameObject:
   - component: {fileID: 6790192203322248033}
   - component: {fileID: 6226385570789523776}
   - component: {fileID: 6193373185211429466}
+  - component: {fileID: 5976231244558734266}
+  - component: {fileID: 9186503475110249158}
   m_Layer: 0
   m_Name: Dog_SaintBernard_01
   m_TagString: Untagged
@@ -274,6 +276,30 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.111525774, y: 0.23210417, z: 0.29828238}
   m_Center: {x: -0.0012357831, y: 0.09432369, z: 0.03258268}
+--- !u!114 &5976231244558734266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62953529922386500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f692de5bb6f7954cb507ee754d817e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DestroyOutOfBounds
+--- !u!114 &9186503475110249158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62953529922386500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ce8367f66f01bf4baae154819be145e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectCollisions
 --- !u!1 &116065524205385170
 GameObject:
   m_ObjectHideFlags: 0

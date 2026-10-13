@@ -5,11 +5,14 @@ public class SpawnManager : MonoBehaviour
 {
     public GameObject[] animalPrefabs;
     public InputAction spawnAction;
+    private float startDelay = 2;
+    private float spawnInterval = 1.5f;
     //public int animalIndex;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         spawnAction.Enable();
+        InvokeRepeating("SpawnRandomAnimal", startDelay, spawnInterval);
     }
 
     // Update is called once per frame
@@ -17,10 +20,7 @@ public class SpawnManager : MonoBehaviour
     private float spawnPosZ = 20;
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            SpawnRandomAnimal();
-        }
+        
     }
 
     void SpawnRandomAnimal()
